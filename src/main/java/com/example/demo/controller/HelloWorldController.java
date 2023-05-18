@@ -9,12 +9,12 @@ public class HelloWorldController {
 
     @GetMapping("/hello")
     public String hello() {
-        return "Hola mundo!!!!!!!!!";
+        return "Hola mundo!!!!!!!!! V1";
     }
 
     @GetMapping("/echo")
     public String echo(@RequestParam String name) {
-        return "Hello World " + name + "!!!!!";
+        return "Hello World  " + name + "!!!!!";
     }
 
 }
